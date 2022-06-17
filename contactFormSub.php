@@ -34,7 +34,7 @@
             $err = 1;
         }
 
-        $emailAcct = 'clintonmark960@gmail.com';
+        $emailAcct = 'goziechukwu@gmail.com';
         $contactDetails = " Firstname: $firstName\n Lastname: $lastName\n\n Message: $textarea1";
 
         if(mail($emailAcct,  $subject, $contactDetails, 'From:  ' . $email)){
