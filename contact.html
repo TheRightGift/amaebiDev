@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amaebi Development Association</title>
+    <link rel="stylesheet" href="./css/materialize.min.css" />
+    <link rel="stylesheet" href="./fonts/material-icons.css" />
+    <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/amaebi.css" />
+  </head>
+  <body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">
+                    <img src="./img/AmaebiLogo.jpg" alt=""/>
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+                    ><i class="material-icons">menu</i></a
+                >
+                <ul class="right hide-on-med-and-down black-text">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li class="active"><a href="./contact.html">Contact Us</a></li>
+                    <li>
+                    <a href="#" class="waves-effect waves-light btn orange black-text"
+                        >Volunteer</a
+                    >
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="carousel carousel-slider center" style="height: 60vh;">
+            <div class="carousel-item white-text contactFirstCarousel" href="#one!">
+                <div class="shadow">
+                    <div class="aboutCaroselContent">
+                        <h1 class="aboutUsHeading">Contact us</h1>
+                        <!-- <p class="white-text">There is no limit to what we, as women, can accomplish.</p> -->
+                    </div>   
+                </div>                           
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="row container contactMainDiv">
+        <div class="col s8">
+            <h3 class="getInTouch">
+                Get in Touch
+            </h3>
+            <p class="getInTouchTxt">
+                If you have any questions, please feel free to drop us a line. If you don't get any
+                answer immediately, we might just be in a middle of a meeting, but we'll definately get
+                back to you as soon as we can. That's a promise.                
+            </p>
+            <form action="" method="" id="contactFormId">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="firstName" name="firstName" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="lastName" name="lastName" type="text" class="validate">
+                        <label for="lastName">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" name="email" type="text" class="validate">
+                        <label for="email">Email Address</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="subject" name="subject" type="text" class="validate">
+                        <label for="subject">Subject</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" name="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Message</label>
+                    </div>
+                </div>
+                <button type="submit" class="col s12 btn-large waves-effect waves-light orange" id="contactBtn" name="contactBtn">
+                    Submit Now
+                </button>
+            </form>
+        </div>
+
+        <div class="col s4">
+            <h4 class="loc">Location</h4>
+            <div class="locInnerDiv">
+                <i class="material-icons locIcon">add_location</i>
+                <p class="locTxt">Location or main branch of the organization here</p>
+            </div>
+            <div class="locInnerDiv">
+                <i class="material-icons emailIcon">email</i>
+                <p class="locEmail">Email Address here</p>
+            </div>
+            <div class="locInnerDiv">
+                <i class="material-icons phoneIcon">phone</i>
+                <p class="locPhone">+234 90 123 456 789</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row callToAction">
+        <div class="container">
+            <div class="col l7">
+                <p>Call Us:<br> 08012345678</p>
+            </div>
+            <div class="col l5 center-align">
+                <p>Follow Us:<br> <i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-instagram"></i></p>
+            </div>
+        </div>          
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Amaebi Development</h5>
+                    <p class="grey-text text-lighten-4">
+                    We are an NGO that works with rural women from local communities
+                    to build capacities by facilitating skills building and
+                    livelihoods support programmes and initiatives particularly on
+                    Financial and digital literacy, and Agricultural Extension and
+                    Advisory.
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Quick Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="./index.html">Home</a></li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="./about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="./services.html">Services</a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="./gallery.html">Gallery</a></li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="./contact.html"
+                            >Contact us</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <a
+                    Amaebi Development © 2014 Copyright Text
+                    class="grey-text text-lighten-4 right"
+                    href="https://devwithgozie.comng"
+                    target="_blank"
+                    >Developed with love by DevWithGozie</a
+                >
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="./js/amaebi.js"></script>
+  </body>
+</html>
