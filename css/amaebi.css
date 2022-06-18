@@ -192,7 +192,7 @@ p.whoWeArePreHeader {
     color: rgb(63, 63, 63);
 }
 .aboutUsTitleDiv {
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
 }
 .aboutUsTxt {
     font-size: 1.2rem;
@@ -203,7 +203,8 @@ p.whoWeArePreHeader {
 .aboutUsTitleContainDiv {
     background-color: rgb(246, 245, 245);
     margin-top: 15vh;
-    padding-top: 13vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 /* Services Section */
@@ -386,6 +387,9 @@ p.whoWeArePreHeader {
 .viMiDiv, .abtPageListDiv {
     margin-top: 23vh;
 }
+.abtPageListDiv img {
+    width: 80%;
+}
 .abtPageTitle {
     font-size: 1.8rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -459,7 +463,7 @@ p.whoWeArePreHeader {
 }
 .videoDesign1 {
     width: 100%;
-    max-height: 18vh;
+    /* max-height: 18vh; */
     background-color: black;
 }
 #bauchiStateDiv {
@@ -467,10 +471,122 @@ p.whoWeArePreHeader {
 }
 .imgDesign {
     width: 100%;
-    max-height: 25.2vh;
+    /* max-height: 25.2vh; */
+    margin-bottom: 3px;
 }
 .galleryStateGreyDiv {
     background-color: rgb(250, 244, 244);
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
+
+.skillBuildMainDiv img {
+    /* height: 62.2vh; */
+}
+.galleryImgContainer {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    background-color: black;
+    padding-top: 0.3vh;
+    padding-bottom: 0.3vh;
+}
+.galleryImgContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.imgMarginBtm {
+    margin-bottom: 15px;
+}
+/* Small Screen */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 98%;
+    }
+    nav a {
+        color: #1d1a1a;
+    }
+
+    .brand-logo img {
+        height: 6.5vh;
+    }
+
+    .carousel.carousel-slider .carousel-item {
+        height: 40%;
+    }
+    .shadow {
+        height: 47vh;
+    }
+    #home .carousel.carousel-slider .carousel-item {
+        height: 100%;
+    }
+    #home .shadow {
+        height: 100vh;
+    }
+    .aboutUsHeading, .servicesHeading {
+        font-size: 3.5rem;
+    }
+
+    .aboutUsFirstColumn {
+        margin-top: 4vh;
+    }
+    #abtVideo {
+        height: auto;
+    }
+    .aboutUsTitleContainDiv {
+        margin-top: 0;
+    }
+    .viMiDiv, .abtPageListDiv {
+        margin-top: 8vh;
+    }
+
+    .abtPageListDiv img {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 2.3rem;
+    }
+    h3 {
+        font-size: 1.92rem;
+    }
+
+    .carousel.carousel-slider .carousel-item .caroselContent h1, 
+    .carousel.carousel-slider .carousel-item .caroselContent h2 {
+        font-size: 50px;
+    }
+    .carousel.carousel-slider .carousel-item .caroselContent p {
+        font-size: 16px;
+    }
+    .card .card-content {
+        min-height: 0;
+    }
+    .aboutUs .first {
+        padding-right: 0;
+    }
+    .aboutUs .second {
+        padding-left: 0;
+    }
+    .row .col.bigPadding {
+        padding: 35px 45px;
+    }
+    .events .card .card-title {
+        font-size: 22px;
+    }
+    .sidenav-overlay {
+        z-index: 991;
+    }
+    .skillBuildMainDiv img {
+        height: unset;
+        width: 100vw;
+    }
+    #bauchiStateDiv {
+        margin-top: 5vh;
+    }
+    .imgMarginBtm {
+        margin-bottom: 5px;
+    }
+}
+
+
