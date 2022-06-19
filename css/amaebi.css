@@ -499,14 +499,42 @@ p.whoWeArePreHeader {
 .imgMarginBtm {
     margin-bottom: 15px;
 }
+@media only screen and (max-width: 900px) {
+    nav a {
+        color: #1d1a1a;
+    }
+
+    .brand-logo img {
+        height: 5vh;
+    }
+
+    .card .card-content {
+        min-height: 0;
+    }
+    .aboutUs .first {
+        padding-right: 0;
+    }
+    .aboutUs .second {
+        padding-left: 0;
+    }
+    .sidenav-overlay {
+        z-index: 991;
+    }
+    .aboutUsTitleContainDiv {
+        margin-top: 0;
+    }
+    .viMiDiv, .abtPageListDiv {
+        margin-top: 8vh;
+    }
+    .abtPageListDiv img {
+        width: 100%;
+    }
+}
 /* Small Screen */
 @media only screen and (max-width: 600px) {
     .container {
         width: 98%;
-    }
-    nav a {
-        color: #1d1a1a;
-    }
+    }    
 
     .brand-logo img {
         height: 6.5vh;
