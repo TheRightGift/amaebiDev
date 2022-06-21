@@ -149,7 +149,9 @@ p.whoWeArePreHeader {
 .page-footer {
     background-color: #000;
 }
-
+.gutterBtm-20vh {
+    margin-bottom: 20vh;
+}
 
 /* About Page Section */
 .aboutFirstCarousel {
